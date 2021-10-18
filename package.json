@@ -1,0 +1,25 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "> implement chat with network protocol, Help understand how common protocols work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxihai123/simple-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuxihai123/simple-chat/issues"
+  },
+  "homepage": "https://github.com/xuxihai123/simple-chat#readme",
+  "dependencies": {
+    "node-kcp": "^1.0.12",
+    "quic": "^0.4.2",
+    "ws": "2.3.x"
+  }
+}
